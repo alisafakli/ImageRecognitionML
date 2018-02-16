@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImageRecognitionML/ViewController.swift"
+            timestampString = "540430655.863381"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "photoIdentify(image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImageRecognitionML/ViewController.swift"
+            timestampString = "540430655.863699"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "photoIdentify(image:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ImageRecognitionML.ViewController.photoIdentify(image: __ObjC.UIImage) -&gt; ()"
+                  moduleName = "ImageRecognitionML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alisafakli/Documents/IOS%20Projects/ImageRecognitionML/ImageRecognitionML/ViewController.swift"
+                  timestampString = "540430325.408619"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__ObjC.VNRequest, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ImageRecognitionML.ViewController.photoIdentify(image: __ObjC.UIImage) -&gt; ()"
+                  moduleName = "ImageRecognitionML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alisafakli/Documents/IOS%20Projects/ImageRecognitionML/ImageRecognitionML/ViewController.swift"
+                  timestampString = "540430325.410502"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (__ObjC.VNRequest, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ImageRecognitionML.ViewController.photoIdentify(image: __ObjC.UIImage) -&gt; ()"
+                  moduleName = "ImageRecognitionML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alisafakli/Documents/IOS%20Projects/ImageRecognitionML/ImageRecognitionML/ViewController.swift"
+                  timestampString = "540430325.412666"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

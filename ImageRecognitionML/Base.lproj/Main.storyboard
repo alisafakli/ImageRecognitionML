@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GIx-Kt-rls">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Image Recognition-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ImageRecognitionML" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Not_available.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5Wx-FS-D9S">
+                                <rect key="frame" x="16" y="64" width="343" height="357"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nzf-sO-hMq">
+                                <rect key="frame" x="16" y="429" width="343" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="QZ2-Tf-Mdd"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iew-bl-jz2">
+                                <rect key="frame" x="20" y="617" width="335" height="40"/>
+                                <color key="backgroundColor" red="0.22352941179999999" green="0.65098039220000004" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="pL2-h0-Y5M"/>
+                                </constraints>
+                                <state key="normal" title="Take Photo">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="takePictureTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g1F-xn-ZOA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.79658638320382136" green="0.96492198709681676" blue="0.98829740290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nzf-sO-hMq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="1T3-Am-C4s"/>
+                            <constraint firstItem="nzf-sO-hMq" firstAttribute="top" secondItem="5Wx-FS-D9S" secondAttribute="bottom" constant="8" id="8af-0e-iEf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5Wx-FS-D9S" secondAttribute="trailing" constant="16" id="Aq4-O7-Dpg"/>
+                            <constraint firstItem="5Wx-FS-D9S" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="BlN-5F-p5B"/>
+                            <constraint firstItem="nzf-sO-hMq" firstAttribute="top" secondItem="5Wx-FS-D9S" secondAttribute="bottom" constant="8" id="Dd9-aL-Acq"/>
+                            <constraint firstItem="5Wx-FS-D9S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="JHz-1J-5ln"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nzf-sO-hMq" secondAttribute="trailing" constant="16" id="WWE-dL-3wN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iew-bl-jz2" secondAttribute="bottom" constant="10" id="YRQ-Zm-rwY"/>
+                            <constraint firstItem="iew-bl-jz2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="in5-bc-Cw2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iew-bl-jz2" secondAttribute="trailing" constant="20" id="lYo-rm-cEq"/>
+                            <constraint firstItem="iew-bl-jz2" firstAttribute="top" secondItem="nzf-sO-hMq" secondAttribute="bottom" constant="8" id="z9s-8p-bnz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Image Recognition" id="WQj-by-Zfi">
+                        <barButtonItem key="rightBarButtonItem" systemItem="trash" id="ge0-eR-QKQ">
+                            <connections>
+                                <action selector="clearButtonTapped:" destination="BYZ-38-t0r" id="lJV-ea-lPW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="buttonTakePhoto" destination="iew-bl-jz2" id="Gja-Iq-NCq"/>
+                        <outlet property="imageViewObject" destination="5Wx-FS-D9S" id="mES-PE-OfC"/>
+                        <outlet property="textViewObject" destination="nzf-sO-hMq" id="7iR-tE-s1M"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="456.80000000000001" y="117.39130434782609"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HHM-Ft-SjL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GIx-Kt-rls" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QUL-1t-1UF">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="0GH-YY-4ne"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YrL-kG-UI7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-260" y="117"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Not_available.jpg" width="508" height="503"/>
+    </resources>
+</document>
